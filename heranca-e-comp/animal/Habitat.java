@@ -23,6 +23,6 @@ public class Habitat {
         this.area = area;
     }
     public String getDescricao(){
-        return getTipo() + getArea();
+        return "\nTipo: " + getTipo() + "\nArea: "+ getArea();
     }
 }
