@@ -43,8 +43,7 @@ public class Animal {
     public void emitirSom(){
 
     }
-    public String getInfo(){
-        return "Nome: " + getNome() + "\nIdade:" + getIdade() +
-                "\nTipo: " + getTipo() + "\nÁrea: " + getArea();
+    public String getInfo(){ //toString (mostrar o texto)
+        return "Nome: " + getNome() + "\nIdade: " + getIdade() + "\nHabitat: " + habitat.getDescricao();
     }
 }
